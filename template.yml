@@ -1,0 +1,3 @@
+server: http://gitlab.com
+private_token: abcd  # your private token provided from gitlab
+destpath: /tmp/gitlab  # the path you want to place all of your gitlab repos

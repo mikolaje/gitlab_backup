@@ -1,3 +1,6 @@
+### Requirements:
+Python >= 3.7
+
 ### Usage
 ```
 python backup.py -c template.yml
@@ -6,10 +9,7 @@ python backup.py -c template.yml
 
 
 ### Example
-You can take the below template.yaml config file as example:
-```yaml
-private_token: abcd  # your private token provided from gitlab
-destpath: /tmp/gitlab  # the path you want to place all of your gitlab repos
-```
+You can take the below template.yml config file as example:
+- [ **check here**](template.yml)
 
 After setup the config file, just run: `python backup.py -c template.yml`
